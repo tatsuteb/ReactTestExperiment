@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__group {
+        margin: 0 30px 10px;
+    }
+
+    &__submit {
+        margin: 10px 30px 0;
+    }
+}

@@ -1,0 +1,43 @@
+.register {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+
+    .container {
+        display: flex;
+        margin: 40px auto 0;
+        padding: 20px 0;
+        max-width: 350px;
+        border: 1px solid #a7a7a7;
+        border-radius: 5px;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .title {
+        line-height: 4rem;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .sub-title {
+        margin-bottom: 20px;
+        color: grey;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .password-display-button {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: bolder;
+        white-space: nowrap;
+    }
+}

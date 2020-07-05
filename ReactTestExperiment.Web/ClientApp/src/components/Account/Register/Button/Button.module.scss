@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: none;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    &--disabled {
+        opacity: 0.3;
+    }
+}
