@@ -1,9 +1,9 @@
 import React, { useState, MouseEvent, FormEvent, useEffect } from 'react';
 import CheckCircleOutline from '@material-ui/icons/CheckCircleOutline';
 import HighlightOff from '@material-ui/icons/HighlightOff';
-import Input, { InputType } from './Input';
-import Button from './Button';
-import Form from './Form';
+import Input, { InputType } from '../../Commons/Input';
+import Button from '../../Commons/Button';
+import Form from '../../Commons/Form';
 import style from './Register.module.scss';
 
 const Register = () => {
