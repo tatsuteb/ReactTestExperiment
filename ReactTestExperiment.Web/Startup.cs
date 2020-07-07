@@ -51,7 +51,7 @@ namespace ReactTestExperiment.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "{controller=accounts}/{action=register}/{id?}");
             });
 
             app.UseSpa(spa =>
